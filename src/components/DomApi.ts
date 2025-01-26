@@ -6,7 +6,7 @@ export const DomApi = async (): Promise<{ el: HTMLElement }> => {
       <h1 class="text-center text-2xl font-bold  py-4" id="title"> DOM API Demonstration</h1>
       <p class="text-center text-xl">Welcome to the DOM API demonstration page!</p>
   
-      <div class="flex justify-evenly space-x-2 mt-8 text-center flex-wrap ">
+      <div class="flex justify-evenly space-x-2 mt-8 text-center flex-wrap mx-auto px-8">
         <div class="mb-4 border-2 border-yellow-400 p-4 rounded-lg w-94">
             <h2 class="text-center text-orange-500"> 1. Selecting Elements</h2>
             <p id="selected-title"></p>

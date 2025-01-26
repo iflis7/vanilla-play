@@ -5,7 +5,7 @@ import fs from 'fs';
 
 
 export default defineConfig({
-  base: '/vanilla-play/',
+  // base: '/vanilla-play/',
   build: {
     rollupOptions: {
       input: {
