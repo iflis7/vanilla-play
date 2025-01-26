@@ -1,5 +1,5 @@
 
-![Javascript Structure](/public/js_structure.png)
+![Javascript Structure](https://raw.githubusercontent.com/iflis7/vanilla-play/refs/heads/main/public/js_structure.png)
 
 ## Web APIs in JavaScript
 
