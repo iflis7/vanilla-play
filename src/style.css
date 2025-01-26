@@ -1,2 +1,33 @@
 @import "tailwindcss";
 
+/* .widgets-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #widgets-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+  }
+
+  html, body, .interactive-map-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  } */
+.interactive-map-container {
+    border: 2px solid #ddd; 
+    border-radius: 8px;      
+    overflow: hidden;       
+}
+      
