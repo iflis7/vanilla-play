@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '/web-api': WebApi,
     '/404': async (): Promise<{ el: HTMLElement }> => {
       const el = document.createElement('div');
-      el.innerHTML = `<h1>404 - Page Not Found</h1>`;
+      el.innerHTML = `<h1 class="text-center text-3xl font-bold py-8" >404 - Page Not Found</h1>`;
       return { el };
     },
   };
